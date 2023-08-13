@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		638B50922A890A850037937F /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638B50912A890A850037937F /* CoinModel.swift */; };
 		63DFF9DA2A88B82900E2768E /* Crypto_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DFF9D92A88B82900E2768E /* Crypto_iOSApp.swift */; };
 		63DFF9DC2A88B82900E2768E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DFF9DB2A88B82900E2768E /* ContentView.swift */; };
 		63DFF9E12A88B82C00E2768E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63DFF9E02A88B82C00E2768E /* Preview Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		638B50912A890A850037937F /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 		63DFF9D62A88B82900E2768E /* Crypto-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63DFF9D92A88B82900E2768E /* Crypto_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto_iOSApp.swift; sourceTree = "<group>"; };
 		63DFF9DB2A88B82900E2768E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		638B50902A890A240037937F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				638B50912A890A850037937F /* CoinModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		63DFF9CD2A88B82900E2768E = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +69,7 @@
 		63DFF9D82A88B82900E2768E /* Crypto-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				638B50902A890A240037937F /* Models */,
 				63DFF9EE2A88C7A700E2768E /* Extensions */,
 				63DFF9F12A88D61100E2768E /* Core */,
 				63DFF9D92A88B82900E2768E /* Crypto_iOSApp.swift */,
@@ -211,6 +222,7 @@
 				63DFF9FA2A88D8D800E2768E /* CircleButtonView.swift in Sources */,
 				63DFF9F02A88C82E00E2768E /* Color.swift in Sources */,
 				63DFF9FC2A88DF2800E2768E /* CircleButtonAnimationView.swift in Sources */,
+				638B50922A890A850037937F /* CoinModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
