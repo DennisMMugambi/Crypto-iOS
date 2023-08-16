@@ -11,7 +11,7 @@ extension Double {
     
     ///Converts a double into a currency with 2 to 2 decimal places
     ///```
-    ///Convert 1234.56 to $1,234.56
+    ///Convert 1234.56 to $1,234.56.
     ///```
     private var currencyFormatter2: NumberFormatter {
         let formatter = NumberFormatter()
